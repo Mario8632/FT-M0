@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'holawordo';
+const nuevaString = 'hola word';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1234;
@@ -60,6 +60,11 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
   
 }
 
@@ -87,7 +92,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return  x  %  y
+  return  x  %  y;
 }
 
 function esPar(num) {
@@ -116,7 +121,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-    Math . pow ( núm ,  2 ) ;
+    return Math . pow ( núm ,  2 ) ;
 }
 
 function elevarAlCubo(num) {
@@ -128,25 +133,25 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  Math . pow ( num ,  exponente ) ;
+  return Math . pow ( num ,  exponente ) ;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math . ronda ( num ) ;
+  return Math . ronda ( num ) ;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math . ceil ( num ) ;
+  return Math . ceil ( num ) ;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  Math . aleatorio ( ) ;
+  return Math . aleatorio ( ) ;
 }
 
 function esPositivo(numero) {
@@ -161,7 +166,7 @@ function esPositivo(numero) {
     return  "Es positivo" ;
   }
   else  {
-      "Es negativo" ;
+    return  "Es negativo" ;
   }
 }
 
@@ -176,7 +181,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var  combinado  =  nombre  +  ''  +  apellido ;
+  var  combinado  =  carlos  +  ''  +  berdugo ;
   return  combinado ;
 }
 
@@ -184,7 +189,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return  'Hola'  +  nombre  +  '!' ;
+  return  'Hola'  +  carlos  +  '!' ;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -197,14 +202,14 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return  lado  *  4
+  return  lado  *  4;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  retorno  ( base  *  altura ) / 2
+  return  ( base  *  altura ) / 2;
 }
 
 
